@@ -1,0 +1,9 @@
+#ifndef AUDIO_STREAM_PREVIEW_GENERATOR_REGISTER_TYPES_H
+#define AUDIO_STREAM_PREVIEW_GENERATOR_REGISTER_TYPES_H
+
+#include "modules/register_module_types.h"
+
+void initialize_audio_stream_preview_generator_module(ModuleInitializationLevel p_level);
+void uninitialize_audio_stream_preview_generator_module(ModuleInitializationLevel p_level);
+
+#endif
